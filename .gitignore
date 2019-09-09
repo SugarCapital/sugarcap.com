@@ -1,0 +1,25 @@
+vendor/
+logs/
+vendor/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/.sass-cache
+/.vscode
+/.idea
+/node_modules
+/package-lock.json
+
+.router-cache.php
+
+public/js/dist.*
+zipfile.zip
+public/mix-manifest.json
+dev/paths.js
+
+public/stylesheets/screen.css
+public/stylesheets/screen.css.map
+
+test/codeception/qaTools/log/*

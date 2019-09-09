@@ -1,0 +1,49 @@
+{
+  "name": "sugarcap.com",
+  "version": "1.0.0",
+  "description": "Investing in tomorrow, today.",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "htmlparser2": "^3.10.1",
+    "laravel-mix": "^4.0.15",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-livereload-plugin": "^2.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "predevelopment": "node dev/extractScriptPath.js > dev/paths.js",
+    "development": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "APP_ENV=local npm run development -- --watch",
+    "compile-css": "sass sass/screen.scss public/stylesheets/screen.css",
+    "prewatch": "PARSE_SERVER_URL=http://localhost:1337/ composer start &",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "PHP_ENV=production NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SugarCap/sugarcap.com.git"
+  },
+  "author": "Sugar Capital (help@sugarcap.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SugarCap/sugarcap.com/issues"
+  },
+  "homepage": "https://github.com/SugarCap/sugarcap.com#readme"
+}

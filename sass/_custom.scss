@@ -1,0 +1,18 @@
+
+$primary: #ff6448;
+$secondary: #1b3bca;
+$ikb: #002fa7;
+$black: #2f3846;
+
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik-Regular.woff") format("woff");
+  src: url("/fonts/Graphik-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik-Medium.woff") format("woff");
+  src: url("/fonts/Graphik-Medium.woff2") format("woff2");
+  font-weight: 500;
+}

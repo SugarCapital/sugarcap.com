@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="Labs">
+    <description>Labs</description>
+    <autoload>./vendor/autoload.php</autoload>
+    <rule ref="PSR2">
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
+    </rule>
+    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
+    <rule ref="./vendor/fig-r/psr2r-sniffer/PSR2R/Sniffs/Namespaces/UnusedUseStatementSniff.php"/>
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="indent" value="4" />
+        </properties>
+    </rule>
+    <file>src</file>
+</ruleset>

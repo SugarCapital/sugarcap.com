@@ -1,0 +1,70 @@
+.page-403,
+.page-500,
+.page-404 {
+    display: flex;
+    position: absolute;
+    top: 134px;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    & > div {
+        width: 16.67%;
+        flex: 1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    .col1 {
+        background-color: #FFFF00;
+    }
+    .col2 {
+        background-color: #00FFFF;
+        left: calc(16.67% * 1);
+    }
+    .col3 {
+        background-color: #02FF00;
+        left: calc(16.67% * 2);
+    }
+    .col4 {
+        background-color: #FF02FF;
+        left: calc(16.67% * 3);
+    }
+    .col5 {
+        background-color: #FE0000;
+        left: calc(16.67% * 4);
+    }
+    .col7 {
+        background-color: #0700FE;
+        left: calc(16.67% * 5);
+    }
+}
+
+@import url(//fonts.googleapis.com/css?family=Geo&subset=latin);
+
+.container-not-found {
+    &.video {
+        position: static;
+    }
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    .not-found {
+        text-align: center;
+        background: #000;
+        color: #fff;
+        padding: 25px;
+        width: 75%;
+        margin: auto;
+        font-family: 'Geo', serif;
+        font-size: 48px;
+        -webkit-font-smoothing: none;
+    }
+}

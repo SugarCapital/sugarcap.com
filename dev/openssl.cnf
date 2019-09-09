@@ -1,0 +1,46 @@
+# see: https://stackoverflow.com/questions/21488845/how-can-i-generate-a-self-signed-certificate-with-subjectaltname-using-openssl
+[ req ]
+#default_bits		= 2048
+#default_md		= sha256
+#default_keyfile 	= privkey.pem
+distinguished_name	= req_distinguished_name
+attributes		= req_attributes
+req_extensions          = v3_req
+x509_extensions         = v3_ca
+
+
+[ req_distinguished_name ]
+countryName			= Country Name (2 letter code)
+countryName_min			= 2
+countryName_max			= 2
+stateOrProvinceName		= State or Province Name (full name)
+localityName			= Locality Name (eg, city)
+0.organizationName		= Organization Name (eg, company)
+organizationalUnitName		= Organizational Unit Name (eg, section)
+commonName			= Common Name (eg, fully qualified host name)
+commonName_max			= 64
+emailAddress			= Email Address
+emailAddress_max		= 64
+
+[ req_attributes ]
+challengePassword		= A challenge password
+challengePassword_min		= 4
+challengePassword_max		= 20
+
+[ alternate_names ]
+
+DNS.1        = local.sugarcap.com
+
+[ v3_req ]
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment
+
+[ v3_ca ]
+subjectAltName      = @alternate_names
+
+[ CA_default ]
+# Extension copying option: use with caution.
+copy_extensions = copy
+
+[alt_names]
+email = help@sugarcap.com
