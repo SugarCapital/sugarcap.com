@@ -1,0 +1,30 @@
+language: php
+php:
+- '7.2'
+services:
+- docker
+install: composer install
+before_deploy:
+  npm install;
+  node dev/extractScriptPath.js > dev/paths.js;
+  npm run production;
+  zip --exclude=node_modules/* --exclude=*.DS_Store*  --exclude=*.git*  --exclude=vendor/* --exclude=sass/*
+    --exclude=\.sass-cache/* --exclude=/dev/* --exclude=/test/* -r zipfile.zip .
+deploy:
+- provider: elasticbeanstalk
+  access_key_id: AKIAI6NWULUG6LIV33PQ
+  region: us-east-1
+  app: sugarcap.com
+  env: sugarcap.com
+  bucket_name: ???
+  bucket_path: ???
+  skip_cleanup: true
+  zip_file: zipfile.zip
+  on:
+    repo: SugarCapital/sugarcap.com
+    branch: master
+  secret_access_key:
+    secure: ???
+after_deploy:
+  - bash test/scripts/run_regression.sh
+
