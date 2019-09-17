@@ -9,18 +9,17 @@ before_deploy: npm install; node dev/extractScriptPath.js > dev/paths.js; npm ru
   --exclude=sass/* --exclude=\.sass-cache/* --exclude=/dev/* --exclude=/test/* -r
   zipfile.zip .
 deploy:
-  matrix:
-  - provider: elasticbeanstalk
-    access_key_id: AKIAZ7YCWSRW6TTFTE7D
-    secret_access_key:
-      secure: dNe1KfKL0kbv1nh+fIPE1iGj3kX7l8fj88Hn9KgeBBHFUbEl3VHg0V+QCplYqAdHgzmG6dXBnfsDDpkDZfm+DuoFTpztWFvlr3MuIWXvnIMfhlLRc4kV7TUvVgXSMJ0TitFLsdrINgYYIzPTa2WAO2mODkSxAIz9VMgIIaKYP3CToQsE5FZz4JFVf18dCKbqXCCK8v5mlRA6zmy3RBrKTYbIlN2YyyHONy8OKGH775eZhVod8MYKB8cWnHUi+LSDn5KwY1LAj8P2cgVRtNYGA0FhxIe7D3K58pds2p0DSfJI1YYVTGhgQnSaSMBAkRsSbKjkWrwQ8auB8DKQp0CsB1UQTjanI//zhO1SoGr+3vaoWGvw9+1/cvrVf9r6XEN+pRqTkAwWQ44OkmjQiFLxo87Of6/QTjCP7pYZoj7jXUd770PcV4jW5g1cqZLPzY6iPPTAZ7cMmiP/+ljmwjV7h4z8DkiFbYEnf88UJYncS+osJLVrZppcY3YV1ozJT1et4VFTvr5aAkxl4hCtG4r07oTyhuumE3HoKuddr05hoSwc7mrP4Pua9jS38g2W6o0cqFIuvjDoYvd+m/bYiibmR0EIwZIT2y7FsV/fuxRfRunWuQSvamEw+PYvu+pYBa4Aguacf6fHWarbJAXEhmNxkGB12voULHHXk6VlEbptFYI=
-    region: us-east-1
-    app: sugarcap.com
-    env: sugarcap.com
-    bucket_name: "sugarcap-ops"
-    bucket_path: "travis"
-    skip_cleanup: true
-    zip_file: zipfile.zip
-    on:
-      repo: SugarCapital/sugarcap.com
-      branch: master
+- provider: elasticbeanstalk
+  access_key_id: AKIAZ7YCWSRW6TTFTE7D
+  secret_access_key:
+    secure: dNe1KfKL0kbv1nh+fIPE1iGj3kX7l8fj88Hn9KgeBBHFUbEl3VHg0V+QCplYqAdHgzmG6dXBnfsDDpkDZfm+DuoFTpztWFvlr3MuIWXvnIMfhlLRc4kV7TUvVgXSMJ0TitFLsdrINgYYIzPTa2WAO2mODkSxAIz9VMgIIaKYP3CToQsE5FZz4JFVf18dCKbqXCCK8v5mlRA6zmy3RBrKTYbIlN2YyyHONy8OKGH775eZhVod8MYKB8cWnHUi+LSDn5KwY1LAj8P2cgVRtNYGA0FhxIe7D3K58pds2p0DSfJI1YYVTGhgQnSaSMBAkRsSbKjkWrwQ8auB8DKQp0CsB1UQTjanI//zhO1SoGr+3vaoWGvw9+1/cvrVf9r6XEN+pRqTkAwWQ44OkmjQiFLxo87Of6/QTjCP7pYZoj7jXUd770PcV4jW5g1cqZLPzY6iPPTAZ7cMmiP/+ljmwjV7h4z8DkiFbYEnf88UJYncS+osJLVrZppcY3YV1ozJT1et4VFTvr5aAkxl4hCtG4r07oTyhuumE3HoKuddr05hoSwc7mrP4Pua9jS38g2W6o0cqFIuvjDoYvd+m/bYiibmR0EIwZIT2y7FsV/fuxRfRunWuQSvamEw+PYvu+pYBa4Aguacf6fHWarbJAXEhmNxkGB12voULHHXk6VlEbptFYI=
+  region: us-east-1
+  app: sugarcap.com
+  env: sugarcap.com
+  bucket_name: "sugarcap-ops"
+  bucket_path: "travis  "
+  skip_cleanup: true
+  zip_file: zipfile.zip
+  on:
+    repo: SugarCapital/sugarcap.com
+    branch: master
