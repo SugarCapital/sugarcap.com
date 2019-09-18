@@ -1,5 +1,5 @@
 <?php
-namespace Labs\Controller;
+namespace SugarCap\Controller;
 
 use Slim\Http\Request;
 use Slim\Http\Response;
