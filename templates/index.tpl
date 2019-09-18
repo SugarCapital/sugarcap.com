@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar">
-      Sugar Capital
+      Sugar Capital.
     </nav>
     <?= $body ?>
   </body>
