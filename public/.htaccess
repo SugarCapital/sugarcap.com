@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip
+
+<filesMatch ".(jpg|jpeg|png|gif|ico|woff2|woff|ttf|html)$">
+    Header set Cache-Control "max-age=86400, public"
+</filesMatch>
+
+<filesMatch ".(css|js)$">
+    Header set Cache-Control "max-age=31556952, public"
+</filesMatch>

@@ -67,7 +67,7 @@
         "process-timeout" : 0
     },
     "scripts": {
-        "start": "echo use https://local.sugarcap.com && php -S 0.0.0.0:8000 -t public",
+        "start": "echo use https://local.sugarcap.com && php -S 0.0.0.0:8090 -t public",
         "test": "phpunit"
     }
 
