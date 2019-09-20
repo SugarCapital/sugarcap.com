@@ -1,3 +1,21 @@
 @import "custom";
 @import "bootstrap/bootstrap";
 @import "404";
+
+* {
+  font-family: product-sans-regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+
+  min-height:100vh;
+}
+
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
