@@ -7,7 +7,7 @@
     <p class='mt-4 text-serif'>We believe the future of innovation should be practical, approachable and designed to serve more types of people. We seek companies with mass appeal that strive to simplify and elevate everyday life.</p>
     <p class='text-serif'>We help prepare them for massive growth through capital and a wealth of knowledge and expertise on brand and consumer behavior. Because companies that serve more people aren’t just better for business, they’re better for the world.</p>
     <p class='text-serif'>
-      Consumers today gravitate to a new breed of companies that use technology and design to deliver better brand experiences.
+      Consumers today gravitate to a new breed of companies that use technology and design to deliver a better brand experience.
     </p>
     <p class='text-serif'>
       If this sounds like you, <a class="" href="mailto:contact@sugarcap.com">email us</a>.
