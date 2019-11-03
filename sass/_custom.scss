@@ -18,6 +18,15 @@ $black: #2f3846;
 }
 
 @font-face{
+  font-family:"DomaineDisplay";
+  src:url("/fonts/DomaineDisplay-Regular.woff") format("woff");
+}
+@font-face{
+  font-family:"GTWalsheimSugarCap";
+  src:url("/fonts/GTWalsheimPro-Regular.woff") format("woff");
+}
+
+@font-face{
   font-family:"product-sans-regular";
   src:url("/fonts/Product-Sans-Regular.ttf") format("woff"),
   url("/fonts/Product-Sans-Regular.ttf") format("opentype"),
