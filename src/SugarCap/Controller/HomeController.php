@@ -32,6 +32,7 @@ class HomeController
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
             ['name' => 'Argent', 'link' => 'https://www.argent.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
+            ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.jpg"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {
