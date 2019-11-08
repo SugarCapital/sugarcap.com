@@ -3,7 +3,7 @@
     <div class="text-center mb-4">
         <a href="https://www.instagram.com/sugarcapital/following/"><img src="/imgs/icon-blue.png" height="300" width="auto" /></a>
       </div>
-    <h1 class='text-serif p-3'>Sugar Capital invests in innovative companies with mass appeal that strive to simplify and elevate everyday life.</h1>
+    <h1 class='text-serif py-3'>Sugar Capital invests in innovative companies with mass appeal that strive to simplify and elevate everyday life.</h1>
 
     <p class='text-serif'>
       If this sounds like you, <a class="" href="mailto:contact@sugarcap.com">email us</a>.
