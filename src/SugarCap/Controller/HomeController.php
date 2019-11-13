@@ -33,6 +33,8 @@ class HomeController
             ['name' => 'Argent', 'link' => 'https://www.argent.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
             ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.jpg"],
+            ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com/', 'img' => "/imgs/logos/optimizely.jpg"],
+            ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com/', 'img' => "/imgs/logos/tracksmith.jpg"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {
