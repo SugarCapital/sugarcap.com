@@ -16,3 +16,41 @@ $black: #2f3846;
   src: url("/fonts/Graphik-Medium.woff2") format("woff2");
   font-weight: 500;
 }
+
+@font-face{
+  font-family:"DomaineDisplay";
+  src:url("/fonts/DomaineDisplay-Regular.woff") format("woff");
+}
+@font-face{
+  font-family:"GTWalsheimSugarCap";
+  src:url("/fonts/GTWalsheimPro-Regular.woff") format("woff");
+}
+
+@font-face{
+  font-family:"product-sans-regular";
+  src:url("/fonts/Product-Sans-Regular.ttf") format("woff"),
+  url("/fonts/Product-Sans-Regular.ttf") format("opentype"),
+  url("/fonts/Product-Sans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family:"product-sans-bold-italic";
+  src:url("/fonts/Product-Sans-Bold-Italic.ttf") format("woff"),
+  url("/fonts/Product-Sans-Bold-Italic.ttf") format("opentype"),
+  url("/fonts/Product-Sans-Bold-Italic.ttf") format("truetype");
+}
+
+@font-face{
+  font-family:"product-sans-italic";
+  src:url("/fonts/Product-Sans-Italic.ttf") format("woff"),
+  url("/fonts/Product-Sans-Italic.ttf") format("opentype"),
+  url("/fonts/Product-Sans-Italic.ttf") format("truetype");
+}
+
+@font-face{
+  font-family:"product-sans-bold";
+  src:url("/fonts/Product-Sans-Bold.ttf") format("woff"),
+  url("/fonts/Product-Sans-Bold.ttf") format("opentype"),
+  url("/fonts/Product-Sans-Bold.ttf") format("truetype");
+}
+

@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="<?= $this->version('/stylesheets/screen.css') ?>" media="screen, projection" type="text/css" />
     <title>Sugar Capital</title>
   </head>
-  <body>
-    <nav class="navbar">
-      Sugar Capital.
-    </nav>
+  <body class="pb-5">
     <?= $body ?>
   </body>
 </html>
