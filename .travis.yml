@@ -15,7 +15,7 @@ deploy:
     secure: Kkr+Qx+1KFsVKOkUXY6VKJBZRhJCDFUlDETMmK60juHQS2pKZdRORhpGWViktyQweEE6P9MD8NaSHnwg6KAJS+ltjadbDM6u5tzk2/+okQnagMJlu5rCA5XAd8yOXAJYZv0GlPNgDa+WL4nRtmmQHa12nOxpPjU4wspJv7SCp7HNs/f5765DrmOP8U9dg2QeMNbtlK6S0fKs8gmv6RqiuKS4KuxqKv97RviWJAM99p/CPbpJyePD8dXCmXwSgeU6HSt5ekO3i2FCpgBu3cZ7q3hVps5ua1SyTJUs8Sm+meKbuiEy/QWRkJwjtVVkrKriIw2Md75lXHrnG5v+m6g1xdzAUvXB9e8LSnryTvZGHoseEnHTqA2kfGMwmC7ggKXiTEbuPiIPevWVjGnZcUil1gZv3bNAisJ/hweuDV+hR6v2KB0o4VFLCk2VB1fdRmy3XtNNQWc31u7KOeJv7AnGRdkOEmh8JRdTjXLdrCTgd0/4UfrAfRjlezpt6gNMiBIEhoA/rwTw7jUxqpLx9X1Tpxkq9RbmDiwZMWc7hcagj5iwhpd8O4/T2eBGIkUU516MieVX34KUMhXObgnn09qgpPtx5BWK7O5+YnnLlL/BwmZIDhbV1QCCWu221xfhFqvp4w5ExbuqI1hocdGb8c/KsPzZrsmKFVe9qqDRoowJtSk=
   region: us-east-1
   app: sugarcap.com
-  env: Sugarcapcom-env
+  env: sugarcap-web-1
   bucket_name: sugarcap-ops
   bucket_path: travis
   skip_cleanup: true
