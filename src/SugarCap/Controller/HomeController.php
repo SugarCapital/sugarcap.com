@@ -36,6 +36,7 @@ class HomeController
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com/', 'img' => "/imgs/logos/optimizely.jpg"],
             ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com/', 'img' => "/imgs/logos/tracksmith.jpg"],
             ['name' => 'Brightland', 'link' => 'https://brightland.co/', 'img' => "/imgs/logos/brightland.jpg"],
+            ['name' => 'Builder.io', 'link' => 'https://builder.io/', 'img' => "/imgs/logos/builderio.png"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {
