@@ -32,11 +32,12 @@ class HomeController
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
             ['name' => 'Argent', 'link' => 'https://www.argent.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
-            ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.jpg"],
+            ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.png"],
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com/', 'img' => "/imgs/logos/optimizely.jpg"],
             ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com/', 'img' => "/imgs/logos/tracksmith.jpg"],
             ['name' => 'Brightland', 'link' => 'https://brightland.co/', 'img' => "/imgs/logos/brightland.jpg"],
             ['name' => 'Builder.io', 'link' => 'https://builder.io/', 'img' => "/imgs/logos/builderio.png"],
+            ['name' => 'Jupiter', 'link' => 'https://hellojupiter.com/', 'img' => "/imgs/logos/jupiter.png"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {

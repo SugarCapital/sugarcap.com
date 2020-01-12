@@ -12,6 +12,8 @@
 h1 {
   font-size: calc(25px + 1vw);
   line-height: calc(1.15em + 1vw);
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 p {
@@ -61,7 +63,7 @@ a {
     height: 160px;
     display: block;
     background-size: cover;
-    border: 15px solid #fff;
+    border: 10px solid $gray-100;
     // box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
   }
 }
