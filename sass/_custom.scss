@@ -1,8 +1,14 @@
 
-$primary: #ff6448;
-$secondary: #1b3bca;
+$primary: #004D7D;
+$secondary: #EE2B1D;
+$tertiary: #F5EDE3;
 $ikb: #002fa7;
 $black: #2f3846;
+$black: #2f3846;
+
+.bg-tertiary {
+  background: $tertiary !important;
+}
 
 @font-face {
   font-family: "Graphik";
@@ -53,4 +59,25 @@ $black: #2f3846;
   url("/fonts/Product-Sans-Bold.ttf") format("opentype"),
   url("/fonts/Product-Sans-Bold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'Titling';
+  src: url('/fonts/TitlingGothicFBCompressed-Bold.woff2') format('woff2'),
+      url('/fonts/TitlingGothicFBCompressed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clarendon';
+  src: url('/fonts/ClarendonURWExtNar-Reg.woff2') format('woff2'),
+      url('/fonts/ClarendonURWExtNar-Reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$font-serif:Clarendon, Georgia, serif;
+$font-display:Titling, Impact;
+$font-sans-serif:Graphik;
 

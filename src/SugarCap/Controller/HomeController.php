@@ -39,6 +39,7 @@ class HomeController
             ['name' => 'Builder.io', 'link' => 'https://builder.io/', 'img' => "/imgs/logos/builderio.png"],
             ['name' => 'Jupiter', 'link' => 'https://hellojupiter.com/', 'img' => "/imgs/logos/jupiter.png"],
             ['name' => 'Caraway', 'link' => 'https://www.carawayhome.com/', 'img' => "/imgs/logos/caraway.jpg"],
+            ['name' => 'Judy', 'link' => 'https://readyjudy.com/', 'img' => "/imgs/logos/judy.png"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {

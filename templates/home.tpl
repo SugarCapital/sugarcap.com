@@ -1,32 +1,39 @@
-<div class="container">
-  <div class="py-4">
-    <div class="text-center mb-4">
-      <a href="https://www.instagram.com/sugarcapital/following/"><img src="/imgs/icon-blue.png" height="300" width="auto" /></a>
+<div class="bg-primary">
+  <div class="container py-4">
+    <div class="py-4">
+    <div class="py-4"></div>
+      <div class="pt-4 my-4">
+        <a href="https://www.instagram.com/sugarcapital/following/"><img src="/imgs/sugar-capital-red.png" width="300" width="auto" /></a>
+      </div>
+
+      <h1 class='text-display text-white pt-4 py-2 pb-4'>A Venture Capital Firm</h1>
+      <h2 class='text-serif text-white pb-1'>Sugar Capital invests in innovative companies with mass appeal that strive to simplify and elevate everyday life.</h2>
     </div>
-    <h1 class='text-serif py-1'>Sugar Capital invests in innovative companies with mass appeal that strive to simplify and elevate everyday life.</h1>
+    <div class="py-4"></div>
+    <div class="py-4"></div>
   </div>
 </div>
-<div class="bg-light py-4">
+<div class="bg-tertiary py-4">
   <div class="container">
-    <div class="">
-      <h1>Companies</h1>
+    <div class="text-secondary">
+      <h3>Companies</h3>
     </div>
     <div class="d-flex flex-wrap">
-
       <?php foreach ($companies as $company) { ?>
         <div class="text-sans-serif company-logo text-center m-1 m-lg-4">
-          <a href="<?= $company['link'] ?>" class="" style="background-image:url('<?= $company['img'] ?>')"></a>
-          <?= $company['name'] ?>
+          <a href="<?= $company['link'] ?>" class="">
+            <div  class="icon" style="background-image:url('<?= $company['img'] ?>')"></div>
+            <div class="text-center pt-2 text-primary"><?= $company['name'] ?></div>
+          </a>
         </div>
       <?php } ?>
-
     </div>
   </div>
 </div>
-<div class="py-4 text-left">
+<div class="py-4 text-left bg-secondary">
   <div class="container">
-    <p class='text-serif'>
-      If this sounds like you, <a class="" href="mailto:contact@sugarcap.com">email us</a>.
+    <p class='text-serif text-white'>
+      If this sounds like you, <a class="text-white" href="mailto:contact@sugarcap.com">email us</a>.
     </p>
   </div>
 </div>
