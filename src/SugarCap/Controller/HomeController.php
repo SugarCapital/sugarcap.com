@@ -40,6 +40,7 @@ class HomeController
             ['name' => 'Jupiter', 'link' => 'https://hellojupiter.com/', 'img' => "/imgs/logos/jupiter.png"],
             ['name' => 'Caraway', 'link' => 'https://www.carawayhome.com/', 'img' => "/imgs/logos/caraway.jpg"],
             ['name' => 'Judy', 'link' => 'https://readyjudy.com/', 'img' => "/imgs/logos/judy.png"],
+            ['name' => 'Foxeye', 'link' => 'https://www.foxeyerobotics.com/', 'img' => "/imgs/logos/foxeye.png"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {
