@@ -23,3 +23,4 @@ public/stylesheets/screen.css
 public/stylesheets/screen.css.map
 
 test/codeception/qaTools/log/*
+.DS_Store
