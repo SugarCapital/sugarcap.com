@@ -30,7 +30,7 @@ class HomeController
             ['name' => 'Leap', 'link' => 'https://www.leapinc.com', 'img' => "/imgs/logos/leap.jpg"],
             ['name' => 'Small Dog Vet', 'link' => 'https://www.smalldoorvet.com', 'img' => "/imgs/logos/small-door-vet.jpg"],
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
-            ['name' => 'Argent', 'link' => 'https://www.argent.com', 'img' => "/imgs/logos/argent.jpg"],
+            ['name' => 'Argent', 'link' => 'https://www.argentwork.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
             ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.png"],
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com', 'img' => "/imgs/logos/optimizely.jpg"],
