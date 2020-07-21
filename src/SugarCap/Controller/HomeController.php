@@ -21,7 +21,7 @@ class HomeController
             ['name' => 'Everlane', 'link' => 'https://www.everlane.com', 'img' => "/imgs/logos/everlane.jpg"],
             ['name' => 'Olive & June', 'link' => 'https://www.oliveandjune.com', 'img' => "/imgs/logos/olive-and-june.jpg"],
             ['name' => 'Afterpay', 'link' => 'https://www.afterpay.com', 'img' => "/imgs/logos/afterpay.jpg"],
-            ['name' => 'Roadster', 'link' => 'https://www.roadtser.com', 'img' => "/imgs/logos/roadster.jpg"],
+            ['name' => 'Roadster', 'link' => 'https://www.roadster.com', 'img' => "/imgs/logos/roadster.jpg"],
             ['name' => 'Fabkids', 'link' => 'https://www.afterpay.com', 'img' => "/imgs/logos/fab-kids.jpg"],
             ['name' => 'True Botanicals', 'link' => 'https://www.truebotanicals.com', 'img' => "/imgs/logos/true-botanicals.jpg"],
             ['name' => 'ShopStyle', 'link' => 'https://www.shopstyle.com', 'img' => "/imgs/logos/shopstyle.png"],
@@ -44,6 +44,7 @@ class HomeController
             ['name' => 'Black Wolf', 'link' => 'https://blackwolfnation.com', 'img' => "/imgs/logos/blackwolf.jpg"],
             ['name' => 'Clyde', 'link' => 'https://www.joinclyde.com/', 'img' => "/imgs/logos/clyde.jpg"],
             ['name' => 'Kinship', 'link' => 'https://lovekinship.com/', 'img' => "/imgs/logos/kinship.jpg"],
+            ['name' => 'Shopping Gives', 'link' => 'https://shoppinggives.com/', 'img' => "/imgs/logos/shopping-gives.jpg"],
         ];
 
         usort($templateArgs['companies'], function($a, $b) {
