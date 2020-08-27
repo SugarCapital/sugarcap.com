@@ -28,7 +28,7 @@ class HomeController
             ['name' => 'Lolli', 'link' => 'https://www.Lolli.com', 'img' => "/imgs/logos/lolli.jpg"],
             ['name' => 'The Assembly', 'link' => 'https://www.theassembly.com', 'img' => "/imgs/logos/the-assembly.jpg"],
             ['name' => 'Leap', 'link' => 'https://www.leapinc.com', 'img' => "/imgs/logos/leap.jpg"],
-            ['name' => 'Small Dog Vet', 'link' => 'https://www.smalldoorvet.com', 'img' => "/imgs/logos/small-door-vet.jpg"],
+            ['name' => 'Small Door Vet', 'link' => 'https://www.smalldoorvet.com', 'img' => "/imgs/logos/small-door-vet.jpg"],
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
             ['name' => 'Argent', 'link' => 'https://www.argentwork.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
