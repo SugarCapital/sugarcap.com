@@ -22,23 +22,23 @@
       <div class="text-sans-serif partner-logo text-center m-1 m-lg-4">
         <a href="https://www.linkedin.com/in/will-hawthorne-1336a72/" class="">
           <div  class="icon" style="background-image:url('/imgs/partners/will.png')"></div>
-          <div class="text-center pt-2 text-primary">Will Hawthorne</div>
+          <div class="will text-center pt-2 text-primary">Will Hawthorne</div>
         </a>
       </div>
       <div class="text-sans-serif partner-logo text-center m-1 m-lg-4">
         <a href="https://www.linkedin.com/in/krista-moatz-a1ab8a23/" class="">
           <div  class="icon" style="background-image:url('/imgs/partners/krista.png')"></div>
-          <div class="text-center pt-2 text-primary">Krista Moatz</div>
+          <div class="krista text-center pt-2 text-primary">Krista Moatz</div>
         </a>
       </div>
       <div class="text-sans-serif partner-logo text-center m-1 m-lg-4">
         <a href="https://www.linkedin.com/in/briansugar/" class="">
           <div  class="icon" style="background-image:url('/imgs/partners/brian.png')"></div>
-          <div class="text-center pt-2 text-primary">Brian Sugar</div>
+          <div class="brian text-center pt-2 text-primary">Brian Sugar</div>
         </a>
       </div>
     </div>
-    <div class="text-secondary mt-3">
+    <div class="text-secondary mt-4">
       <h3>Portfolio</h3>
     </div>
     <div class="d-flex flex-wrap">
@@ -51,7 +51,7 @@
         </div>
       <?php } ?>
     </div>
-    <div class="mt-3 text-secondary">
+    <div class="mt-4 text-secondary">
       <h3>Enduring Companies</h3>
     </div>
     <div class="d-flex flex-wrap">
