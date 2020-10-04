@@ -61,6 +61,7 @@ body {
     }
   }
 }
+.partner-logo,
 .company-logo {
   font-size: calc(12px + 0.5vw);
   a {
@@ -74,5 +75,14 @@ body {
     background-size: cover;
     border: 10px solid #fff;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+  }
+}
+.partner-logo {
+  .icon {
+    width: 300px;
+    height: 300px;
+    border: 0 solid #fff;
+    box-shadow: none;
+    background-color: rgba($tertiary, 1);
   }
 }
