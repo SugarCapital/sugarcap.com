@@ -36,13 +36,15 @@ class HomeController
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com', 'img' => "/imgs/logos/optimizely.jpg"],
             ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com', 'img' => "/imgs/logos/tracksmith.jpg"],
             ['name' => 'Foxeye', 'link' => 'https://www.foxeyerobotics.com', 'img' => "/imgs/logos/foxeye.png"],
+            
         ];
         $templateArgs['fund1'] = [
             ['name' => 'Black Wolf', 'link' => 'https://blackwolfnation.com', 'img' => "/imgs/logos/blackwolf.jpg"],
             ['name' => 'Clyde', 'link' => 'https://www.joinclyde.com/', 'img' => "/imgs/logos/clyde.jpg"],
             ['name' => 'Kinship', 'link' => 'https://lovekinship.com/', 'img' => "/imgs/logos/kinship.jpg"],
             ['name' => 'Shopping Gives', 'link' => 'https://shoppinggives.com/', 'img' => "/imgs/logos/shopping-gives.jpg"],
-            // ['name' => 'co-op', 'link' => 'https://www.coopcommerce.co/', 'img' => "/imgs/logos/co-op.jpg"],
+            ['name' => 'Citizen Science', 'link' => 'https://thecitizenscience.com', 'img' => "/imgs/logos/citizenscience.png"],
+            ['name' => 'Co-op', 'link' => 'https://www.coopcommerce.co', 'img' => "/imgs/logos/coop.png"],
             ['name' => 'Brightland', 'link' => 'https://brightland.co', 'img' => "/imgs/logos/brightland.jpg"],
             ['name' => 'Builder.io', 'link' => 'https://builder.io', 'img' => "/imgs/logos/builderio.png"],
             ['name' => 'Jupiter', 'link' => 'https://hellojupiter.com', 'img' => "/imgs/logos/jupiter.png"],
