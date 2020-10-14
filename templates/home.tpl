@@ -6,7 +6,7 @@
         <a href="https://www.instagram.com/sugarcapital/following/"><img src="/imgs/sugar-capital-red.png" width="300" width="auto" /></a>
       </div>
       <h1 class='text-display text-white pt-4 py-2 pb-4'>A Venture Capital Firm</h1>
-      <h2 class='text-serif text-white pb-1'>Sugar Capital invests in smart companies that seek to elevate everyday life.</h2>
+      <h2 class='text-serif text-white pb-1'>Sugar Capital invests in the brands and technology that power the future of commerce.</h2>
     </div>
     <div class="py-4"></div>
     <div class="py-4">
