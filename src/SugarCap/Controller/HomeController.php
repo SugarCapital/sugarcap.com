@@ -51,6 +51,8 @@ class HomeController
             ['name' => 'Caraway', 'link' => 'https://www.carawayhome.com', 'img' => "/imgs/logos/caraway.jpg"],
             ['name' => 'Judy', 'link' => 'https://readyjudy.com', 'img' => "/imgs/logos/judy.jpg"],
             ['name' => 'Polyops', 'link' => 'https://polyoperations.com', 'img' => "/imgs/logos/polyops.png"],
+            ['name' => 'Starface', 'link' => 'https://starface.world', 'img' => "/imgs/logos/starface.jpg"],
+            ['name' => 'Fast', 'link' => 'https://fast.co', 'img' => "/imgs/logos/fast.jpg"],
         ];
 
         usort($templateArgs['angel'], function($a, $b) {
