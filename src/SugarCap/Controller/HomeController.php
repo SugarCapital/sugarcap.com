@@ -32,7 +32,6 @@ class HomeController
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
             ['name' => 'Argent', 'link' => 'https://www.argentwork.com', 'img' => "/imgs/logos/argent.jpg"],
             ['name' => 'POPSUGAR', 'link' => 'https://www.popsugar.com', 'img' => "/imgs/logos/popsugar.jpg"],
-            ['name' => 'Fast', 'link' => 'https://www.fast.co', 'img' => "/imgs/logos/fast.png"],
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com', 'img' => "/imgs/logos/optimizely.jpg"],
             ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com', 'img' => "/imgs/logos/tracksmith.jpg"],
             ['name' => 'Foxeye', 'link' => 'https://www.foxeyerobotics.com', 'img' => "/imgs/logos/foxeye.png"],
