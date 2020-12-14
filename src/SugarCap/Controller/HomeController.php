@@ -52,6 +52,7 @@ class HomeController
             ['name' => 'Polyops', 'link' => 'https://polyoperations.com', 'img' => "/imgs/logos/polyops.png"],
             ['name' => 'Starface', 'link' => 'https://starface.world', 'img' => "/imgs/logos/starface.jpg"],
             ['name' => 'Fast', 'link' => 'https://fast.co', 'img' => "/imgs/logos/fast.jpg"],
+            ['name' => 'Frame', 'link' => 'https://www.tryframe.com/', 'img' => "/imgs/logos/frame.jpg"],
         ];
 
         usort($templateArgs['angel'], function($a, $b) {
