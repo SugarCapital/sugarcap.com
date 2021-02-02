@@ -6,7 +6,7 @@
         <a href="https://www.instagram.com/sugarcapital/following/"><img src="/imgs/sugar-capital-red.png" width="300" width="auto" /></a>
       </div>
       <h1 class='text-display text-white pt-4 py-2 pb-4'>A Venture Capital Firm</h1>
-      <h2 class='text-serif text-white pb-1'>Sugar Capital invests in the brands and technology that power the future of commerce.</h2>
+      <h2 class='text-serif text-white pb-1'>Sugar Capital invests in the future of commerce.</h2>
     </div>
     <div class="py-4"></div>
     <div class="py-4">
@@ -39,10 +39,23 @@
       </div>
     </div>
     <div class="text-secondary mt-4">
-      <h3>Portfolio</h3>
+      <h3>Enterprise</h3>
     </div>
     <div class="d-flex flex-wrap">
-      <?php foreach ($fund1 as $company) { ?>
+      <?php foreach ($enterprise as $company) { ?>
+        <div class="text-sans-serif company-logo text-center m-1 m-lg-4">
+          <a href="<?= $company['link'] ?>" class="">
+            <div  class="icon" style="background-image:url('<?= $company['img'] ?>')"></div>
+            <div class="text-center pt-2 text-primary"><?= $company['name'] ?></div>
+          </a>
+        </div>
+      <?php } ?>
+    </div>
+    <div class="text-secondary mt-4">
+      <h3>Consumer</h3>
+    </div>
+    <div class="d-flex flex-wrap">
+      <?php foreach ($consumer as $company) { ?>
         <div class="text-sans-serif company-logo text-center m-1 m-lg-4">
           <a href="<?= $company['link'] ?>" class="">
             <div  class="icon" style="background-image:url('<?= $company['img'] ?>')"></div>
