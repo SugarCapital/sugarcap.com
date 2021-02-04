@@ -26,7 +26,7 @@ class HomeController
             ['name' => 'True Botanicals', 'link' => 'https://www.truebotanicals.com', 'img' => "/imgs/logos/true-botanicals.jpg"],
             ['name' => 'ShopStyle', 'link' => 'https://www.shopstyle.com', 'img' => "/imgs/logos/shopstyle.png"],
             ['name' => 'Lolli', 'link' => 'https://www.Lolli.com', 'img' => "/imgs/logos/lolli.jpg"],
-            ['name' => 'The Assembly', 'link' => 'https://www.theassembly.com', 'img' => "/imgs/logos/the-assembly.jpg"],
+            // ['name' => 'The Assembly', 'link' => 'https://www.theassembly.com', 'img' => "/imgs/logos/the-assembly.jpg"],
             ['name' => 'Leap', 'link' => 'https://www.leapinc.com', 'img' => "/imgs/logos/leap.jpg"],
             ['name' => 'Small Door Vet', 'link' => 'https://www.smalldoorvet.com', 'img' => "/imgs/logos/small-door-vet.jpg"],
             ['name' => 'Tribe Dynamics', 'link' => 'https://www.tribedynamics.com', 'img' => "/imgs/logos/tribe-dynamics.jpg"],
