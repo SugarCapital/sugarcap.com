@@ -47,6 +47,7 @@ class HomeController
             ['name' => 'Judy', 'link' => 'https://readyjudy.com', 'img' => "/imgs/logos/judy.jpg"],
             ['name' => 'Starface', 'link' => 'https://starface.world', 'img' => "/imgs/logos/starface.jpg"],
             ['name' => 'Snif', 'link' => 'https://snif.co/', 'img' => "/imgs/logos/snif.jpg"],
+            ['name' => 'Uniform Teeth', 'link' => 'https://www.uniformteeth.com/', 'img' => "/imgs/logos/uniform.png"],
         ];
         $templateArgs['enterprise'] = [
             ['name' => 'Clyde', 'link' => 'https://www.joinclyde.com/', 'img' => "/imgs/logos/clyde.jpg"],
