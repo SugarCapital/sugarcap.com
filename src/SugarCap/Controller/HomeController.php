@@ -35,6 +35,7 @@ class HomeController
             ['name' => 'Optimizely', 'link' => 'https://www.optimizely.com', 'img' => "/imgs/logos/optimizely.jpg"],
             ['name' => 'Tracksmith', 'link' => 'https://www.tracksmith.com', 'img' => "/imgs/logos/tracksmith.jpg"],
             ['name' => 'Luum', 'link' => 'https://www.luumlash.com/', 'img' => "/imgs/logos/luum.png"],
+            ['name' => 'Bonsai', 'link' => 'https://www.shopbonsai.ca/', 'img' => "/imgs/logos/bonsai.jpeg"],
         ];
         $templateArgs['consumer'] = [
             ['name' => 'Black Wolf', 'link' => 'https://blackwolfnation.com', 'img' => "/imgs/logos/blackwolf.jpg"],
